@@ -368,8 +368,8 @@ export default function Results() {
                     These pages capture who {data.name} is — so far. But their story isn't finished.
                 </p>
                 <p>
-                    Every day adds new memories, new experiences, new chapters. The ego, built from these
-                    collected moments, continues to evolve.
+                    Every day, you add new memories, new experiences, new chapters. From these collected moments, 
+                    your ego evolves, shaping you into the person called Kwanmin Lee.
                 </p>
                 <p className="font-medium">
                     {data.name} is not a fixed being, but a living story, constantly being written.
