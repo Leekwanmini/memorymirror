@@ -5,33 +5,33 @@ import React from 'react';
 
 
 const HTMLFlipBook = dynamic(() => import('react-pageflip'), {
-  ssr: false,
+    ssr: false,
 });
 
 interface FormData {
-  name: string;
-  age: string;
-  nationality: string;
-  location: string;
-  siblings: string;
-  school: string;
-  moved: string;
-  movedWhere: string;
-  childhood: string;
-  goodAtChild: string;
-  goodAtNow: string;
-  bestFriend: string;
-  firstLove: string;
-  partnerLookFor: string;
-  favoriteMemory: string;
-  favoriteTVSeries: string;
-  hobby: string;
-  cafeOrder: string;
-  feltAlone: string;
-  personDislike: string;
-  personHurt: string;
-  forgive: string;
-  religion: string;
+    name: string;
+    age: string;
+    nationality: string;
+    location: string;
+    siblings: string;
+    school: string;
+    moved: string;
+    movedWhere: string;
+    childhood: string;
+    goodAtChild: string;
+    goodAtNow: string;
+    bestFriend: string;
+    firstLove: string;
+    partnerLookFor: string;
+    favoriteMemory: string;
+    favoriteTVSeries: string;
+    hobby: string;
+    cafeOrder: string;
+    feltAlone: string;
+    personDislike: string;
+    personHurt: string;
+    forgive: string;
+    religion: string;
 }
 
 const Page = React.forwardRef(

@@ -11,8 +11,7 @@ export default function Home() {
   return (
     <div 
       onClick={handleClick}
-      className="min-h-screen flex items-center justify-center bg-neutral-50 cursor-pointer transition-all duration-700"
-    >
+      className="min-h-screen flex items-center justify-center bg-neutral-50 cursor-pointer transition-all duration-700">
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
       `}</style>
