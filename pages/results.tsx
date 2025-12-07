@@ -365,11 +365,11 @@ export default function Results() {
                 </h2>
                 <div className="text-neutral-700 leading-relaxed space-y-5 max-w-sm" style={{ fontSize: '14px' }}>
                 <p className="italic">
-                    These pages capture who {data.name} is — so far. But their story isn't finished.
+                    These pages capture who {data.name} is so far. But their story isn't finished.
                 </p>
                 <p>
                     Every day, you add new memories, new experiences, new chapters. From these collected moments, 
-                    your ego evolves, shaping you into the person called Kwanmin Lee.
+                    your ego evolves, shaping you into the person called {data.name}.
                 </p>
                 <p className="font-medium">
                     {data.name} is not a fixed being, but a living story, constantly being written.
