@@ -43,14 +43,14 @@ const questions = [
   { key: 'bestFriend', question: 'Who is your best friend?', type: 'text', required: false, placeholder: 'e.g., Alex' },
   { key: 'firstLove', question: 'Who was your first love?', type: 'text', required: false, placeholder: 'e.g., Kathy from high school' },
   { key: 'partnerLookFor', question: 'What do you look for in your partner?', type: 'text', required: false, placeholder: 'e.g., kindness and honesty' },
-  { key: 'favoriteMemory', question: "What's your favorite memory?", type: 'textarea', required: false, placeholder: 'e.g., The day I graduated from college with my family watching...' },
-  { key: 'favoriteTVSeries', question: 'What was your favourite TV series when you were a child?', type: 'text', required: false, placeholder: 'e.g., SpongeBob SquarePants' },
-  { key: 'hobby', question: 'What is your hobby recently?', type: 'text', required: false, placeholder: 'e.g., photography' },
-  { key: 'cafeOrder', question: 'What is your favourite order when you go to a cafe?', type: 'text', required: false, placeholder: 'e.g., Coldbrew Black' },
   { key: 'feltAlone', question: 'When was the last time you felt alone and why?', type: 'textarea', required: false, placeholder: 'e.g., Every night on my way back home, I miss my real “home”.' },
   { key: 'personDislike', question: "Who was the person you don't like the most?", type: 'text', required: false, placeholder: 'e.g., My old boss' },
   { key: 'personHurt', question: "Who gave you hurt that you can't forget?", type: 'text', required: false, placeholder: 'e.g., A close friend who betrayed me' },
-  { key: 'forgive', question: 'Do you think you could forgive them someday?', type: 'text', required: false, placeholder: 'e.g., Maybe, but not yet' }
+  { key: 'forgive', question: 'Do you think you could forgive them someday?', type: 'text', required: false, placeholder: 'e.g., Maybe, but not yet' },
+  { key: 'favoriteMemory', question: "What's your favorite memory?", type: 'textarea', required: false, placeholder: 'e.g., The day I graduated from college with my family watching...' },
+  { key: 'favoriteTVSeries', question: 'What was your favourite TV series when you were a child?', type: 'text', required: false, placeholder: 'e.g., SpongeBob SquarePants' },
+  { key: 'hobby', question: 'What is your hobby recently?', type: 'text', required: false, placeholder: 'e.g., photography' },
+  { key: 'cafeOrder', question: 'What’s your go-to order when you go to a café?', type: 'text', required: false, placeholder: 'e.g., Coldbrew Black' }
 ];
 
 export default function Questions() {
