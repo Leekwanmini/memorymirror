@@ -2,15 +2,10 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 
 export default function Home() {
-  const [showClick, setShowClick] = useState(false);
   const router = useRouter();
 
   const handleClick = () => {
-    if (!showClick) {
-      setShowClick(true);
-    } else {
-      router.push('/questions');
-    }
+    router.push('/questions');
   };
 
   return (
@@ -24,14 +19,14 @@ export default function Home() {
 
       <div className="text-center px-4">
         <h1 
-          className="text-6xl md:text-8xl font-light text-neutral-800 mb-8 transition-all duration-700"
+          className="text-6xl md:text-8xl font-light text-neutral-800 mb-6 transition-all duration-700"
           style={{ fontFamily: '"Playfair Display", "Georgia", serif' }}
         >
-          {showClick ? 'Click anywhere to begin' : 'Who are you?'}
+          Who are you?
         </h1>
-        {!showClick && (
-          <div className="w-16 h-px bg-neutral-300 mx-auto animate-pulse"></div>
-        )}
+        <p className="text-neutral-400 text-xs uppercase tracking-widest">
+          Touch anywhere to continue
+        </p>
       </div>
     </div>
   );

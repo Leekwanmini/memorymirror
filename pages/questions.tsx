@@ -34,7 +34,7 @@ interface FormData {
     { key: 'location', question: 'Which city do you live in?', type: 'text', required: false, placeholder: 'e.g., Toronto' },
     { key: 'siblings', question: 'How many siblings do you have?', type: 'text', required: false, placeholder: 'e.g., 2 or None' },
     { key: 'religion', question: 'Do you have religion?', type: 'text', required: false, placeholder: 'e.g., Name of Religion or No' },
-    { key: 'school', question: 'What is the most recent school you graduated from?', type: 'text', required: false, placeholder: 'e.g., Georgian College' },
+    { key: 'school', question: 'What is the most recent school you graduated from?', type: 'text', required: false, placeholder: 'e.g., Humber College' },
     { key: 'moved', question: 'Have you ever moved to a different city or country?', type: 'text', required: false, placeholder: 'Yes or No' },
     { key: 'movedWhere', question: 'Where was/were the place(s) you moved to?', type: 'text', required: false, placeholder: 'e.g., Montreal to Toronto', conditional: true },
     { key: 'childhood', question: 'What was your childhood like?', type: 'textarea', required: false, placeholder: 'e.g., happy and carefree' },
