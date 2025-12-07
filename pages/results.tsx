@@ -147,7 +147,7 @@ export default function Results() {
                 </div>
                 </div>
             </Page>
-            <Page number="2">
+            <Page number="3">
             {data.religion && (
                 <p>
                     When it comes to faith and religion, {data.name} follows {data.religion}
@@ -155,7 +155,7 @@ export default function Results() {
                 )}
             </Page>
             {/* Chapter 2 - Page 1 */}
-            <Page number="2">
+            <Page number="4">
             <div className="h-full flex flex-col">
                 <h2 className="text-2xl font-light text-neutral-800 mb-3 tracking-wide" style={{ fontFamily: '"Playfair Display", serif' }}>
                 Chapter II
@@ -179,7 +179,7 @@ export default function Results() {
             </Page>
 
             {/* Chapter 2 - Page 2 */}
-            <Page number="3">
+            <Page number="5">
             <div className="text-neutral-700 leading-loose space-y-5 text-justify pt-16" style={{ fontSize: '15px' }}>
                 {data.childhood && (
                     <p>
@@ -201,7 +201,7 @@ export default function Results() {
             </Page>
 
             {/* chapter 2 page 3 */ }   
-            <Page number="4">
+            <Page number="6">
                 <div className="text-neutral-700 leading-loose space-y-5 text-justify pt-16" style={{ fontSize: '15px' }}>             
                     {data.goodAtNow && (
                         <p>
@@ -214,7 +214,7 @@ export default function Results() {
 
 
             {/* Chapter 3 - Page 1 */}
-            <Page number="5">
+            <Page number="7">
             <div className="h-full flex flex-col">
                 <h2 className="text-2xl font-light text-neutral-800 mb-3 tracking-wide" style={{ fontFamily: '"Playfair Display", serif' }}>
                 Chapter III
@@ -239,7 +239,7 @@ export default function Results() {
             </Page>
 
             {/* Chapter 3 - Page 2 */}
-            <Page number="6">
+            <Page number="8">
             <div className="text-neutral-700 leading-loose space-y-5 text-justify" style={{ fontSize: '15px' }}>
                 {data.partnerLookFor && (
                 <p>
@@ -309,7 +309,7 @@ export default function Results() {
             </Page>
 
             {/* Chapter 5 - Page 1 */}
-            <Page number="7">
+            <Page number="12">
                 <div className="h-full flex flex-col">
                 <h2 className="text-2xl font-light text-neutral-800 mb-3 tracking-wide" style={{ fontFamily: '"Playfair Display", serif' }}>
                     Chapter V
@@ -333,7 +333,7 @@ export default function Results() {
             </Page>
 
             {/* Chapter 5 - Page 2 */}
-            <Page number="8">
+            <Page number="13">
             <div className="text-neutral-700 leading-loose space-y-5 text-justify" style={{ fontSize: '15px' }}>
                 {data.favoriteTVSeries && (
                 <p>
@@ -358,7 +358,7 @@ export default function Results() {
 
 
             {/* Final Page - Part 1 */}
-            <Page number="12">
+            <Page number="14">
             <div className="h-full flex flex-col justify-center items-center text-center px-4">
                 <h2 className="text-3xl font-light text-neutral-800 mb-8" style={{ fontFamily: '"Playfair Display", serif' }}>
                 To Be Continued...
@@ -378,7 +378,7 @@ export default function Results() {
             </div>
             </Page>
 
-            {/* Final Page - Part 2 (Begin Again button) */}
+            {/*Begin Again button */}
             <Page>
             <div className="h-full flex flex-col justify-center items-center">
                 <button
